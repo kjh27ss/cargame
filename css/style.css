@@ -1,0 +1,45 @@
+body{
+    overflow: hidden;
+}
+
+.bluecar{
+    width: 60px;
+    height:62px;
+    background:url(../image/bluecar.png) no-repeat;
+    position:absolute;
+    transform: rotate(180deg);
+}
+
+.cloud{
+    position: absolute;
+    left:18px;
+    bottom:-70px;
+    display: none;
+}
+
+.txt{
+    position: fixed;
+    top:20px;
+    right:20px;
+    font-size:13px;
+    color:#999;
+}
+.txt span:last-child{
+    margin-left:15px;
+
+   
+}
+
+.box{
+    position:absolute;
+    border:1px solid #000;
+    width:80px;
+    height:100px;
+    display:flex;
+    top:150px;
+    left:200px;
+    border-top:none;
+    
+
+    
+}
